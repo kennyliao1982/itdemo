@@ -42,7 +42,7 @@ public class BeanUtilsDemo {
     this.employee = new Employee();
     this.employee.setName("kenny");
     Address address = new Address();
-    address.setDetail("台北市重慶南路一段57號3樓");
+    address.setDetail("台北市重慶南路一段57號333樓");
     this.employee.setAddress(address);
 
     List<MobilePhone> mobilePhones = new ArrayList<MobilePhone>();
